@@ -1,0 +1,46 @@
+p {
+    line-height: 1.8;
+}
+
+.visually_hidden {
+    position: absolute;
+    left: -10000px;
+}
+
+.wrapper {
+    padding: 60px 100px;
+    text-align: justify;
+    width: auto;
+    height: auto;
+}
+
+.header {
+    margin-bottom: 1rem;
+    width: 200px;
+    margin-right: 0;
+    margin-left: auto;
+    text-align: right;
+}
+
+.main {
+    margin-top: 70px;
+    margin-bottom: 40px;
+  
+}
+
+.footer {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    .footer_right {
+        width: 200px;
+        margin-left: auto;
+        text-align: center;
+    }
+    .footer_left {
+        width: 200px;
+        margin-right: auto;
+        text-align: center;
+    }
+}
