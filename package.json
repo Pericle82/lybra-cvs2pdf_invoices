@@ -2,6 +2,7 @@
   "name": "lybra-cvs2pdf_invoices-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Pericle82.github.io/lybra-cvs2pdf_invoices",
   "dependencies": {
     "@react-pdf/renderer": "^3.1.8",
     "@testing-library/jest-dom": "^5.16.5",
@@ -11,10 +12,13 @@
     "@types/node": "^16.18.18",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "bootstrap": "^5.2.3",
+    "gh-pages": "^5.0.0",
     "html2canvas": "^1.4.1",
     "jspdf": "^2.5.1",
     "papaparse": "^5.4.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
     "react-pdf": "^6.2.2",
     "react-scripts": "^5.0.1",
@@ -23,6 +27,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

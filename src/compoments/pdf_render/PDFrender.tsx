@@ -1,12 +1,14 @@
 import { useRef } from "react"
+import { Button, Col, Row, Table } from "react-bootstrap"
 
 
 interface PDFrenderProps {
     rows: { [K: string]: string }[]
-    show: boolean
+    show: boolean,
+    showControl?: boolean
 }
 
-const PDFrender: React.FC<PDFrenderProps> = ({ rows, show }) => {
+const PDFrender: React.FC<PDFrenderProps> = ({ rows, show, showControl = false }) => {
 
     const rowRef = useRef<HTMLInputElement[]>([])
 
@@ -25,12 +27,21 @@ const PDFrender: React.FC<PDFrenderProps> = ({ rows, show }) => {
 
     return (
         <>
-            <button onClick={toggleAll}>Toggle All</button>
-            <button onClick={checkAll}>Check All</button>
-            <button onClick={uncheckAll}>Uncheck All</button>
+            {showControl &&
+                <Row>
+                    <Col className="text-start">
+                        <Button className="me-4" variant="primary" onClick={toggleAll}>Toggle All</Button>
+                        <Button className="me-4" onClick={checkAll}>Check All</Button>
+                        <Button  onClick={uncheckAll}>Uncheck All</Button>
+                    </Col>
+                </Row>
 
-            {show && rows?.length > 0 && <h1>rows</h1> &&
-                <table >
+            }
+
+
+            {
+                show && rows?.length > 0 && <h1>rows</h1> &&
+                <Table style={{ marginTop: "20px" }} striped bordered hover>
                     <thead>
                         <tr>
                             <th></th>
@@ -69,13 +80,11 @@ const PDFrender: React.FC<PDFrenderProps> = ({ rows, show }) => {
 
 
                     </tbody>
-                </table>
+                </Table>
 
             }
 
-        </>
-
-    )
+        </>)
 
 }
 
