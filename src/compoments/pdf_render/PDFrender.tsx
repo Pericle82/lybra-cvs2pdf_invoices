@@ -52,8 +52,6 @@ const PDFrender: React.FC<PDFrenderProps> = ({ rows, show }) => {
                                                     (el) => {
                                                         if (el) {
                                                             rowRef.current[index] = el
-
-
                                                         }
                                                     }
                                                 }
