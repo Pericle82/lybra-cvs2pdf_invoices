@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lybra-cvs2pdf_invoices/static/css/main.799b48ae.css",
+    "main.js": "/lybra-cvs2pdf_invoices/static/js/main.4b2d3726.js",
+    "static/js/498.340e6fed.chunk.js": "/lybra-cvs2pdf_invoices/static/js/498.340e6fed.chunk.js",
+    "static/js/703.087e792e.chunk.js": "/lybra-cvs2pdf_invoices/static/js/703.087e792e.chunk.js",
+    "static/js/541.d103351d.chunk.js": "/lybra-cvs2pdf_invoices/static/js/541.d103351d.chunk.js",
+    "static/js/787.f6e1a04b.chunk.js": "/lybra-cvs2pdf_invoices/static/js/787.f6e1a04b.chunk.js",
+    "static/media/signature.png": "/lybra-cvs2pdf_invoices/static/media/signature.e1e7f40ec28dd815618c.png",
+    "index.html": "/lybra-cvs2pdf_invoices/index.html",
+    "main.799b48ae.css.map": "/lybra-cvs2pdf_invoices/static/css/main.799b48ae.css.map",
+    "main.4b2d3726.js.map": "/lybra-cvs2pdf_invoices/static/js/main.4b2d3726.js.map",
+    "498.340e6fed.chunk.js.map": "/lybra-cvs2pdf_invoices/static/js/498.340e6fed.chunk.js.map",
+    "703.087e792e.chunk.js.map": "/lybra-cvs2pdf_invoices/static/js/703.087e792e.chunk.js.map",
+    "541.d103351d.chunk.js.map": "/lybra-cvs2pdf_invoices/static/js/541.d103351d.chunk.js.map",
+    "787.f6e1a04b.chunk.js.map": "/lybra-cvs2pdf_invoices/static/js/787.f6e1a04b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.799b48ae.css",
+    "static/js/main.4b2d3726.js"
+  ]
+}
